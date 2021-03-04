@@ -47,7 +47,6 @@ body {
 }
 
 .search__input {
-  outline: none;
   width: 350px;
   height: 100%;
   padding-left: 23px;
