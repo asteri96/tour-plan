@@ -4,6 +4,7 @@ const swiper = new Swiper('.swiper-container', {
     keyboard: {
         enabled: true,
     },
+    effect: "coverflow",
     // Navigation arrows
     navigation: {
       nextEl: '.slider-button--next',
