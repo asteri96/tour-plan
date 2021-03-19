@@ -1,8 +1,8 @@
 .reviews
-    padding: 40px 0 70px 0
+    padding:  0 70px 0
     &__title
         font-size: 36px
-        line-height: 45px
+        line-height: 26px
         text-align: center
         text-transform: uppercase
         margin-bottom: 70px
@@ -37,7 +37,7 @@
                 height: 47px
         &__button
             position: absolute
-            top: 45%
+            top: 47%
             transform: translateY(-50%)
             width: 30px
             height: 30px
@@ -51,19 +51,19 @@
             z-index: 100
             &--prev
                 background-image: url(../img/arrow-prev-secondary.svg)
-                left: 0
+                left: 18px
             &--next
                 background-image: url(../img/arrow-next-secondary.svg)
-                right: 0
+                right: 18px
         &__profile
             display: flex
             flex-direction: column
             align-items: center
-            margin-top: -45px
-            margin-bottom: 30px
+            margin-top: -37px
+            margin-bottom: 35px
         &__avatar
-            width: 99px
-            height: 99px
+            width: 92px
+            height: 92px
             border-radius: 50%
             object-fit: cover
             margin-bottom: 9px
@@ -72,12 +72,15 @@
             font-size: 12px
             line-height: 15px
             color: $primary
+            margin-bottom: 9px
         &__date
             font-size: 10px
             line-height: 13px
             margin-bottom: 4px
         &__rating
+            width: 45px
             display: flex
+            justify-content: space-between
             align-items: center
         &__text
             max-width: 537px
